@@ -1,0 +1,518 @@
+/* default classes */
+body h3 {
+    margin-left: 2em;
+    padding-left: 7px;
+    background-color: rgb(218, 216, 216);
+    width:45vh;
+    border-radius: 30px;
+}
+
+/* first div boxes before nav bar */
+
+.center {
+   margin-right: 30em;
+   margin-top: -2em;
+} 
+
+.cl {
+    background-color: black;
+}
+
+.d-grid1{
+    display: grid;
+}
+
+.white {
+    color: white;
+}
+
+.ct {
+    text-align: center;
+    padding-top: 5em;
+
+}
+
+.fit {
+    width: 100vh;
+    height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    margin: 1px;
+    height: 335px;
+}
+
+.boarder {
+    border: 4px;
+    border-color: black;
+}
+
+.btn-clr {
+    color: white !important;
+    background-color: #000000 !important;
+    border-color: white !important; 
+
+}
+ 
+
+
+.w {
+    width: 100% ;
+    height: 70% ;
+}
+
+
+/* end of first div  */
+
+
+
+
+
+
+
+
+
+
+
+.bkgrd-div {
+    background-color: rgb(223, 222, 222);
+    width:100%;
+    height: 65vh;
+}
+
+.title-h3 {
+    padding-top: 1em;
+}
+.bkgrd-div h3 {
+    background-color: black;
+    color: white;
+}
+
+.gridtwo {
+    display: flex;
+    justify-content:space-around ;
+    
+}
+
+.boxes {
+    background-color: rgb(158, 158, 158);
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.boxes img {
+    width: 300px;
+    height: 300px;
+    margin-top: 1em;
+}
+
+.boxes h5 {
+    text-align: center;
+}
+.boxes p {
+    text-align: center;
+    margin-top: -1em;
+    font-size: 12px;
+}
+.boxes button {
+    margin-left: 5.5em;
+    margin-top: .5em;
+}
+
+/* <!-- end of flex div --> */
+
+
+
+
+
+
+
+
+
+
+/* <!-- beggening of background image div --> */
+
+
+
+  .backgroundimg {
+    background-image:url("https://wallpapers-base.com/wp-content/uploads/2018/08/high_quality_wallpaper_HD_1080_IDS_1144634-1200x750.jpg");
+    max-width: 100%;
+    max-height: 70vh;
+    background-size: 90em 50em; 
+    background-position: 0em -7.2em; 
+}
+
+.box-bkimg {
+    padding-top: 10.4em;
+    padding-left: 9em;
+    padding-bottom: 15em;
+}
+
+.box-bkimg p {
+    margin-top: -1em;
+    font-size: 16px;
+    color: white;
+    
+}
+
+.box-bkimg button  {
+    font-weight: 700;
+    font-size: 12px;
+}
+.box-bkimg button:hover{
+    background-color:rgb(238, 238, 238);
+}
+
+.title-bkimg {
+    font-size: 50px;
+    font-family: Arial, Helvetica;
+    color: white;
+    font-weight:600;
+}
+
+
+
+.grid-bkimg {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    
+    height: 550px;
+}
+
+.bkr-color {
+    background-color: rgb(241, 165, 178);
+    height: 550px;
+
+}
+
+.box2 {
+    height: 550px;
+    width: 80vh;
+   background-image: url("https://img2.wallspic.com/previews/1/0/7/0/5/150701/150701-fun-performance-fashion-shoe-puma-550x310.jpg");
+   background-size: 62em;
+   background-position: -12em -7px;
+   padding-left: -8em;
+
+}
+
+/* .box2 img {
+    height: 550px;
+    max-width: 40em;
+    
+
+
+} */
+
+.flex-button {
+    display: flex;
+    padding-right: 5px;
+}
+
+.flex-button button {
+    margin-right: 9px;
+    
+    
+}
+.flex-button button:hover {
+    background-color: rgba(255, 255, 255, 0.787);
+}
+.inside-bkr-color {
+    padding-top: 10em;
+    padding-left: 7em;
+    padding-bottom: 15em;
+}
+.inside-bkr-color h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.inside-bkr-color p {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/* FOOTER CLASSES */
+
+
+.footer {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-indent {
+    color: white;
+    padding-top: 7em;
+    
+}
+.footer p {
+    color: rgb(221, 219, 219);
+}
+.footer p:hover {
+    color: white;
+}
+.footer hr {
+   
+    background-color: rgb(255, 255, 255);
+    padding-top: 3px;
+
+}
+
+.footer-1 {
+padding-left: 2.5em;
+
+}
+
+.footer-flex {
+    display: flex;
+    
+}
+
+.footer-flex p {
+    font-size: 13px;
+    margin-top: -1em;
+    margin-right: -3em;
+
+}
+
+.inside-footer {
+    margin-right: 7em;
+} 
+
+.footer-3 {
+    padding-left: 2em;
+}
+
+#email {
+    background-color: rgb(240, 240, 240);
+    color: rgba(68, 68, 68, 0.794);
+}
+#email:hover {
+background-color: white;
+color: black;
+}
+
+#submit:hover{
+    background-color: rgba(255, 255, 255, 0.979);
+    border-color: rgba(223, 223, 223, 0.712);
+    
+
+}
+@media screen and (max-device-width: 1440px){
+    .title-h3 {
+        padding-top: 3em;
+    }
+    .gridtwo {
+        display: flex;
+        justify-content:space-around ;
+        margin-top: -1em;
+    }
+}
+
+@media screen and (max-device-width: 400px) {
+     #b{
+        width: 40em;
+    }
+
+    #b h3 {
+        
+    padding-left: em;
+    background-color: rgb(0, 0, 0);
+    width:45vh;
+    border-radius: 30px;
+    font-size: 3em;
+    text-align: center;
+    margin-left: 2.6em;
+    margin-top: 1em;
+    }
+
+    .d-grid1 {
+        display: flex;
+    }
+
+    .d-grid1 button{
+        padding: 15px 32px;
+        font-size: 30px;
+
+    }
+
+    .title-h3 {
+        padding-top: 12em;
+    }
+
+    .grid {
+        display: block;
+        grid-template-columns: 1fr 2fr;
+    margin: 3px;
+    height: 335px;
+    }
+    .bkgrd-div {
+        background-color: rgb(223, 222, 222);
+        width: 100%;
+        height: 215em;
+        padding-top: 9em;
+    }
+
+
+    .gridtwo {
+        display: block;
+        justify-content:space-around ;
+        margin-top: -2em;
+    }
+
+    .w {
+        height: 100%;
+        
+    }
+    .w h1 {
+        font-size: 3em;
+    }
+
+    .grid-bkimg {
+        display: block; 
+        
+        height: 550px;
+    }
+
+    .boxes {
+        background-color: rgba(158, 158, 158, 0); 
+        width: auto;
+        height: auto;
+        margin: 5em;
+    }
+
+    .boxes img {
+        width: 40em;
+        height: 40em;
+    }
+
+    .boxes button {
+        display: none;
+        margin-left: 16.3em;
+        margin-top: -0.5em;
+        margin-bottom: 1em;
+    }
+
+    .boxes h5 {
+        font-size: 4em;
+    }
+
+    .boxes .boxes-p   {
+        display: none;
+    }
+
+    
+
+    .box-bkimg {
+        padding-top: 10.4em;
+         padding-left: 0em; 
+        padding-bottom: 15em;
+    }
+
+    .box-bkimg button{
+        padding: -2px 27px;
+        font-size: 45px;
+        margin-left: 4.5em;
+    }
+
+    
+
+
+    .box-bkimg p{
+        font-size: 2em;
+        margin-left: 4.5em;
+    }
+
+    .title-bkimg {
+        font-size: 67px;
+        font-family: Arial, Helvetica;
+        color: white;
+        font-weight:600;
+        margin-left: 0em;
+    }
+
+    .inside-bkr-color {
+        padding-top: 6em;
+        padding-left: 2em;
+        padding-bottom: 15em;
+    }
+
+    .inside-bkr-color h1 {
+        text-align: center;
+    }
+
+    .inside-bkr-color p {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+    }
+    .flex-button {
+        display: grid;
+
+    }
+    .flex-button button {
+        font-size: 40px;
+        margin: 20px;
+        border-radius: 25px;
+    }
+
+    .footer {
+        background-color: rgb(22, 22, 22);
+        width: 100%;
+        height: 60vh;
+        display: block;
+        
+    }
+
+    .footer-indent {
+        color: white;
+        padding-top: 0em;
+    }
+
+    .footer-1 {
+        padding-left: 2.5em;
+        display: none;
+    }
+    .footer-3 {
+        font-size: 2em;
+    }
+    .footer-3 hr {
+        display: none;
+    }
+
+    .footer-3 form {
+        text-align: center;
+
+    }
+    .footer-3 form input{
+        width: 70%;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    .footer-3 h6 {
+        font-size: 3em;
+        text-align: center;
+    }
+    .box2 {
+        height: 0px;
+        width: 0em;
+        background-image: url(https://img2.wallspic.com/previews/1/0/7/0/5/150701/150701-fun-performance-fashion-shoe-puma-550x310.jpg);
+        background-size: 62em;
+        background-position: -12em -7px;
+        padding-left: 0em;
+    }
+
+}
